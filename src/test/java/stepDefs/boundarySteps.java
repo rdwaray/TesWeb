@@ -35,6 +35,7 @@ public class boundarySteps {
         driver.close();
     }
 
+
     @Given(": User is on register page")
     public void userIsOnRegisterPage() {
         driver.get("https://www.demoblaze.com");

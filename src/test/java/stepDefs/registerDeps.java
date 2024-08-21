@@ -34,6 +34,7 @@ public class registerDeps {
         driver.close();
     }
 
+
     @Given("User is on the register page")
     public void userIsOnTheRegisterPage() {
         driver.get("https://www.demoblaze.com");

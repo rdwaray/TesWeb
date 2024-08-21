@@ -33,12 +33,13 @@ public class loginSteps {
     public void tearDown() {
         driver.close();
     }
+
     @Given("User in on login form")
     public void userInOnLoginForm() {
         driver.get("https://www.demoblaze.com/");
         WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("login2")));
-        WebElement loginForm = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("logInModalLabel")));
-        System.out.println("Form = " + loginForm);
+//        WebElement loginForm = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("logInModalLabel")));
+//        System.out.println("Form = " + loginForm);
         loginButton.click();
     }
 
@@ -68,8 +69,8 @@ public class loginSteps {
     public void userIsOnTheLoginForm() {
         driver.get("https://www.demoblaze.com/");
         WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("login2")));
-        WebElement loginForm = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("logInModalLabel")));
-        System.out.println("Form = " + loginForm);
+//        WebElement loginForm = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("logInModalLabel")));
+//        System.out.println("Form = " + loginForm);
         loginButton.click();
     }
 
