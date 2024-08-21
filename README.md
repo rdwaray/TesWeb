@@ -4,11 +4,11 @@ Tugas ini bertujuan untuk menyediakan kerangka kerja pengujian otomatis untuk ap
 Page object model akan digunakan untuk menjaga agar kode pengujian tetap terstruktur.
 ## Penyiapan dan konfigurasi
 - Konfigurasi gradle
-- Struktur proyek
- "src/test/java/stepDefs" - Untuk kode pengujian isinya kelas Page Object Model dan definisi langkah cucumber
- "src/test/resources/" - Untuk skenario cucumber format gherkin
- "reports" - Untuk hasil report pengetesan
 - Membuat TestRunner dan membuat laporan nya di "html:reports/test-report.html"
+- Struktur proyek
+  "src/test/java/stepDefs" - Untuk kode pengujian isinya kelas Page Object Model dan definisi langkah cucumber
+  "src/test/resources/" - Untuk skenario cucumber format gherkin
+  "reports" - Untuk hasil report pengetesan
 ## Fitur yang di test
 - Login = Test positif login dan negatif gagal login
 - Register = Test positif registrasi dan negatif gagal registrasi
