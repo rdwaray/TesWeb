@@ -18,3 +18,14 @@ Page object model akan digunakan untuk menjaga agar kode pengujian tetap terstru
 ## Menjalankan pengujian
 - ./gradlew test
 - Menjalankan TestRunner
+## Hasil test
+- Test Gradlew
+  ![Screenshot of Testgradlew](https://github.com/rdwaray/TesWeb/raw/master/screenshoot/1%20Testgradlew.png)
+- Test Runner
+  ![Screenshot of Testrunner](https://github.com/rdwaray/TesWeb/blob/master/screenshoot/2%20Testrunner.png)
+- Hasil report HTML
+  ![Screenshot of Testrunner](https://github.com/rdwaray/TesWeb/blob/master/screenshoot/3%20hasil%20report%20html.png)
+
+## Hal yang perlu diperbaiki
+-Membuat kelas baseTest untuk mengelola setup dan teardown (untuk @before dan @after)
+-Karena @before dan @after saya di deklarasikan di setiap stepdeps maka jika pengetesan akan muncul
