@@ -3,6 +3,7 @@
 Tugas ini bertujuan untuk menyediakan kerangka kerja pengujian otomatis untuk aplikasi web menggunakan Gradle sebagai sistem build, Cucumber untuk mendefinisikan skenario pengujian dengan sintaks Gherkin, Selenium untuk berinteraksi dengan antarmuka pengguna web, dan JUnit untuk eksekusi dan laporan pengujian.  
 Page object model akan digunakan untuk menjaga agar kode pengujian tetap terstruktur.
 ## Penyiapan dan konfigurasi
+- Website test yang digunakan https://www.demoblaze.com
 - Konfigurasi gradle
 - Membuat TestRunner dan membuat laporan nya di "html:reports/test-report.html"
 - Struktur proyek
