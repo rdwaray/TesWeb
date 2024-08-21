@@ -8,7 +8,6 @@ Page object model akan digunakan untuk menjaga agar kode pengujian tetap terstru
  "src/test/java/stepDefs" - Untuk kode pengujian isinya kelas Page Object Model dan definisi langkah cucumber
  "src/test/resources/" - Untuk skenario cucumber format gherkin
  "reports" - Untuk hasil report pengetesan
-- 
 - Membuat TestRunner dan membuat laporan nya di "html:reports/test-report.html"
 ## Fitur yang di test
 - Login = Test positif login dan negatif gagal login
@@ -27,5 +26,6 @@ Page object model akan digunakan untuk menjaga agar kode pengujian tetap terstru
   ![Screenshot of Testrunner](https://github.com/rdwaray/TesWeb/blob/master/screenshoot/3%20hasil%20report%20html.png)
 
 ## Hal yang perlu diperbaiki
--Membuat kelas baseTest untuk mengelola setup dan teardown (untuk @before dan @after)
--Karena @before dan @after saya di deklarasikan di setiap stepdeps maka jika pengetesan akan muncul
+- Membuat kelas baseTest untuk mengelola setup dan teardown (untuk @before dan @after)
+- Karena @before dan @after saya di deklarasikan di setiap stepdeps maka jika pengetesan dimulai akan membuka beberapa browser
+![Screenshot of masalah](https://github.com/rdwaray/TesWeb/blob/master/screenshoot/4%20Masalah.png)
